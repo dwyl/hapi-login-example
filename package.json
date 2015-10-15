@@ -1,0 +1,48 @@
+{
+  "name": "hapi-register-example",
+  "version": "1.0.1",
+  "description": "Example of building a registration flow using hapi-register plugin for Hapi.js",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "fast": "./node_modules/tape/bin/tape ./test/*.js",
+    "test": "istanbul cover ./node_modules/tape/bin/tape ./test/*.js  | node_modules/tap-spec/bin/cmd.js",
+    "start": "PORT=8000 ./node_modules/.bin/nodemon example/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonic/hapi-register-example.git"
+  },
+  "keywords": [
+    "hapi",
+    "registration",
+    "plugin"
+  ],
+  "author": "nelsonic & friends",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/nelsonic/hapi-register-example/issues"
+  },
+  "homepage": "https://github.com/nelsonic/hapi-register-example#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "boom": "^2.9.0",
+    "handlebars": "^4.0.3",
+    "hapi": "^10.1.0",
+    "hapi-register": "^1.0.10",
+    "inert": "^3.0.1",
+    "joi": "^6.7.1",
+    "redis-connection": "^2.0.0",
+    "validator": "^4.0.6",
+    "vision": "^3.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.20",
+    "nodemon": "^1.7.1",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0"
+  }
+}
