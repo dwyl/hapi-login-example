@@ -47,7 +47,7 @@ function return_form_input_values(error) {
  * @param {Object} error - the error object prepared for the client
  * response (including the validation function error under error.data
  */
-function register_handler(request, reply, source, error) {
+function login_handler(request, reply, source, error) {
   // show the registration form until its submitted correctly
   if(!request.payload || request.payload && error) {
     var errors, values; // return empty if not set.
@@ -63,10 +63,10 @@ function register_handler(request, reply, source, error) {
   }
   else { // once successful, show welcome message!
     return reply.view('success', {
-      name   : validator.escape(request.payload.name),
+      name   : 'Friend',
       email  : validator.escape(request.payload.email)
     })
   }
 }
 
-module.exports = register_handler;
+module.exports = login_handler;
