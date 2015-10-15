@@ -30,7 +30,7 @@ for a *simple* (*yet complete*) web/app login process.
 
 ## Try it: https://hapi-login.herokuapp.com/
 
-![register form](https://cloud.githubusercontent.com/assets/194400/10197712/d6cc0348-6790-11e5-86ca-dc218bdffd54.png)
+![login form](https://cloud.githubusercontent.com/assets/194400/10523082/6e7fab3c-7370-11e5-91e2-639fc725b3e6.png)
 
 ## How?
 
@@ -70,7 +70,7 @@ to mitigate [Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scri
 vulnerability:
 
 Avoids Cross Site Scripting:
-
+![hapi login avoids XSS](https://cloud.githubusercontent.com/assets/194400/10522594/db57b45a-736d-11e5-969a-844d186db80b.png)
 
 
 ## Want *More*?
