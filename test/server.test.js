@@ -21,25 +21,25 @@ test(file + "GET / Warm Up the Engine", function(t) {
 
 var test_email = 'dwyl.test+register@gmail.com'
 
-test(file+"/register Without Name", function(t) {
+test(file+"/login without password", function(t) {
   var options = {
     method: "POST",
-    url: "/register",
+    url: "/login",
     payload : { email: test_email }
   };
 
   server.inject(options, function(response) {
     // console.log(response)
-    t.equal(response.statusCode, 400, "Name is required!");
+    t.equal(response.statusCode, 400, "Password is required!");
     server.stop(function(){ t.end() });
   });
 });
 
-test(file+"/register Without Email", function(t) {
+test(file+"/login without email", function(t) {
   var options = {
     method: "POST",
-    url: "/register",
-    payload : { name: 'Jimmy' }
+    url: "/login",
+    payload : { password: 'Jimmy' }
   };
 
   server.inject(options, function(response) {
@@ -49,11 +49,11 @@ test(file+"/register Without Email", function(t) {
   });
 });
 
-test(file+"/register With Valid Data (Success Test)", function(t) {
+test(file+"/login With Valid Data (Success Test)", function(t) {
   var options = {
     method: "POST",
-    url: "/register",
-    payload : { name: 'Jimmy', email: test_email }
+    url: "/login",
+    payload : { email: test_email, password: 'supersecret' }
   };
 
   server.inject(options, function(response) {

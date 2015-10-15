@@ -1,6 +1,6 @@
 var Hapi   = require('hapi'); https://github.com/nelsonic/learn-hapi
 var Vision = require('vision');
-var server = new Hapi.Server({ debug: {"request": ["error", "uncaught"]} })
+var server = new Hapi.Server(); // { debug: {"request": ["error", "uncaught"]} })
 var assert = require('assert');
 
 var custom_fields  = require('./model');      // fields required to login
