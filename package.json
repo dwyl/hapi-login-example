@@ -1,6 +1,6 @@
 {
   "name": "hapi-login-example",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Example of building a registration flow using hapi-register plugin for Hapi.js",
   "main": "index.js",
   "directories": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nelsonic/hapi-login-example.git"
+    "url": "git+https://github.com/dwyl/hapi-login-example.git"
   },
   "keywords": [
     "hapi",
@@ -25,9 +25,9 @@
   "author": "nelsonic & friends",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/nelsonic/hapi-login-example/issues"
+    "url": "https://github.com/dwyl/hapi-login-example/issues"
   },
-  "homepage": "https://github.com/nelsonic/hapi-login-example#readme",
+  "homepage": "https://github.com/dwyl/hapi-login-example#readme",
   "dependencies": {
     "bcrypt": "^0.8.5",
     "boom": "^3.0.0",
