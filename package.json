@@ -1,6 +1,6 @@
 {
   "name": "hapi-login-example",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Example of building a registration flow using hapi-register plugin for Hapi.js",
   "main": "index.js",
   "directories": {
@@ -19,7 +19,8 @@
   "keywords": [
     "hapi",
     "registration",
-    "plugin"
+    "plugin",
+    "example"
   ],
   "author": "nelsonic & friends",
   "license": "GPL-2.0",
