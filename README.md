@@ -1,11 +1,11 @@
 # `hapi-login` *example*
 
-[![Build Status](https://travis-ci.org/nelsonic/hapi-login-example.svg)](https://travis-ci.org/nelsonic/hapi-login-example)
-[![codecov.io](http://codecov.io/github/nelsonic/hapi-login-example/coverage.svg?branch=master)](http://codecov.io/github/nelsonic/hapi-login-example?branch=master)
-[![Code Climate](https://codeclimate.com/github/nelsonic/hapi-login-example/badges/gpa.svg)](https://codeclimate.com/github/nelsonic/hapi-login-example)
-[![Dependency Status](https://david-dm.org/nelsonic/hapi-login-example.svg)](https://david-dm.org/nelsonic/hapi-login-example)
-[![devDependency Status](https://david-dm.org/nelsonic/hapi-login-example/dev-status.svg)](https://david-dm.org/nelsonic/hapi-login-example#info=devDependencies)
-[![HitCount](https://hitt.herokuapp.com/nelsonic/hapi-login-example.svg)](https://github.com/nelsonic/hapi-login-example)
+[![Build Status](https://travis-ci.org/dwyl/hapi-login-example.svg)](https://travis-ci.org/dwyl/hapi-login-example)
+[![codecov.io](http://codecov.io/github/dwyl/hapi-login-example/coverage.svg?branch=master)](http://codecov.io/github/dwyl/hapi-login-example?branch=master)
+[![Code Climate](https://codeclimate.com/github/dwyl/hapi-login-example/badges/gpa.svg)](https://codeclimate.com/github/dwyl/hapi-login-example)
+[![Dependency Status](https://david-dm.org/dwyl/hapi-login-example.svg)](https://david-dm.org/dwyl/hapi-login-example)
+[![devDependency Status](https://david-dm.org/dwyl/hapi-login-example/dev-status.svg)](https://david-dm.org/dwyl/hapi-login-example#info=devDependencies)
+[![HitCount](https://hitt.herokuapp.com/dwyl/hapi-login-example.svg)](https://github.com/dwyl/hapi-login-example)
 
 ## Why?
 
@@ -39,7 +39,7 @@ The best way to get started is to run this example *locally*.
 #### 1. Clone the repo:
 
 ```sh
-git clone git@github.com:nelsonic/hapi-login-example.git
+git clone git@github.com:dwyl/hapi-login-example.git
 ```
 #### 2. Install *Dependencies* from NPM
 
@@ -76,5 +76,5 @@ Avoids Cross Site Scripting:
 ## Want *More*?
 
 If you would like to see this example *expanded*,
-please either [***create an issue***](https://github.com/nelsonic/hapi-login-example/issues)
+please either [***create an issue***](https://github.com/dwyl/hapi-login-example/issues)
 with a *specific request* or [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat/)

@@ -1,6 +1,6 @@
 {
   "name": "hapi-login-example",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Example of building a registration flow using hapi-register plugin for Hapi.js",
   "main": "index.js",
   "directories": {
@@ -14,36 +14,37 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nelsonic/hapi-login-example.git"
+    "url": "git+https://github.com/dwyl/hapi-login-example.git"
   },
   "keywords": [
     "hapi",
     "registration",
-    "plugin"
+    "plugin",
+    "example"
   ],
   "author": "nelsonic & friends",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/nelsonic/hapi-login-example/issues"
+    "url": "https://github.com/dwyl/hapi-login-example/issues"
   },
-  "homepage": "https://github.com/nelsonic/hapi-login-example#readme",
+  "homepage": "https://github.com/dwyl/hapi-login-example#readme",
   "dependencies": {
     "bcrypt": "^0.8.5",
-    "boom": "^2.9.0",
-    "handlebars": "^4.0.3",
-    "hapi": "^10.1.0",
-    "hapi-login": "^1.0.6",
-    "hapi-register": "^1.0.10",
-    "inert": "^3.0.1",
-    "joi": "^6.7.1",
-    "redis-connection": "^2.0.0",
-    "validator": "^4.0.6",
-    "vision": "^3.0.0"
+    "boom": "^3.0.0",
+    "handlebars": "^4.0.4",
+    "hapi": "^11.1.0",
+    "hapi-login": "^1.0.9",
+    "hapi-register": "^1.0.12",
+    "inert": "^3.2.0",
+    "joi": "^7.0.0",
+    "redis-connection": "^4.0.0",
+    "validator": "^4.2.1",
+    "vision": "^4.0.0"
   },
   "devDependencies": {
-    "istanbul": "^0.3.20",
-    "nodemon": "^1.7.1",
+    "istanbul": "^0.4.0",
+    "nodemon": "^1.8.1",
     "tap-spec": "^4.1.0",
-    "tape": "^4.2.0"
+    "tape": "^4.2.2"
   }
 }
