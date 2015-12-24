@@ -15,7 +15,7 @@ We did not *find* an ***end-to-end*** solution/tutorial
 for ***login*** (*using email & password*) in Hapi.js apps,
 so we *wrote* it.
 
-`if` ***anything*** is ***unclear*** in this (*or any of our other repos*),
+If ***anything*** is ***unclear*** in this (*or any of our other repos*),
 ***please tell us***:
 [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat/)  
 
@@ -54,7 +54,7 @@ npm start
 ```
 
 That's it.  
-Now, ~~hack~~ *customise* it to heart's content!
+Now, ~~hack~~ *customise* it to your heart's content!
 
 When you visit http://localhost:8000/ you will see a login form, you can login with any valid email address:
 ![hapi-login-01](https://cloud.githubusercontent.com/assets/194400/10522464/312648ca-736d-11e5-9f9f-36e39755b186.png)
