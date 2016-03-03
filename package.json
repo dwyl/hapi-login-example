@@ -1,6 +1,6 @@
 {
   "name": "hapi-login-example",
-  "version": "1.0.4",
+  "version": "1.0.13",
   "description": "Example of building a registration flow using hapi-register plugin for Hapi.js",
   "main": "index.js",
   "directories": {
@@ -30,21 +30,21 @@
   "homepage": "https://github.com/dwyl/hapi-login-example#readme",
   "dependencies": {
     "bcrypt": "^0.8.5",
-    "boom": "^3.0.0",
-    "handlebars": "^4.0.4",
-    "hapi": "^11.1.0",
-    "hapi-login": "^1.0.9",
-    "hapi-register": "^1.0.12",
+    "boom": "^3.1.2",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.0.0",
+    "hapi-login": "^1.0.13",
+    "hapi-register": "^1.0.13",
     "inert": "^3.2.0",
-    "joi": "^7.0.0",
-    "redis-connection": "^4.0.0",
-    "validator": "^4.2.1",
-    "vision": "^4.0.0"
+    "joi": "^8.0.4",
+    "redis-connection": "^4.0.3",
+    "validator": "^5.1.0",
+    "vision": "^4.0.1"
   },
   "devDependencies": {
-    "istanbul": "^0.4.0",
-    "nodemon": "^1.8.1",
-    "tap-spec": "^4.1.0",
-    "tape": "^4.2.2"
+    "istanbul": "^0.4.2",
+    "nodemon": "^1.9.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
   }
 }
